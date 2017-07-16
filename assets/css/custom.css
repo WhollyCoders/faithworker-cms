@@ -1,0 +1,13 @@
+body{font-family: 'century gothic', helvetica, arial, sans-serif; width:100%; height:100%; font-size: 20px;}
+  header{background-color:#000; color:#fff; height:90px;}
+    .header-left, .header-right{width:50%; float:left;}
+    .header-right{text-align: right; line-height: 90px; padding-right: 20px;}
+      .brand-logo img{width:320px; height:auto; margin:10px 0px 0px 20px;}
+      .header-topnav nav ul li{display: inline; list-style: none;}
+      .header-topnav nav ul li a{text-decoration: none; color:#fff; padding: 15px; text-transform: capitalize;}
+      .header-topnav nav ul li a:hover{color:#a42;}
+        .link-login{background-color: #fa2;}
+
+    section{padding:15px 20px;}
+
+    footer{background-color: #000; height:45px; line-height:45px; text-align: center; font-size: 12px; color: #777;}
