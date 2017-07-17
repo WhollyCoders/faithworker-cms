@@ -1,13 +1,21 @@
-body{font-family: 'century gothic', helvetica, arial, sans-serif; width:100%; height:100%; font-size: 20px;}
+body{font-family: 'century gothic', helvetica, arial, sans-serif; width:100%; height:100%; font-size: 18px;}
   header{background-color:#000; color:#fff; height:90px;}
-    .header-left, .header-right{width:50%; float:left;}
+    .header-left{width:28%; float:left;}
+    .header-right{width:72%; float:left;}
     .header-right{text-align: right; line-height: 90px; padding-right: 20px;}
-      .brand-logo img{width:320px; height:auto; margin:10px 0px 0px 20px;}
+      .brand-logo img{width:240px; height:auto; margin:15px 0px 0px 20px;}
       .header-topnav nav ul li{display: inline; list-style: none;}
       .header-topnav nav ul li a{text-decoration: none; color:#fff; padding: 15px; text-transform: capitalize;}
       .header-topnav nav ul li a:hover{color:#a42;}
         .link-login{background-color: #fa2;}
 
-    section{padding:15px 20px;}
+    #banner-home .banner-image{width:75%; margin:0px auto;}
+      #banner-home img{height: 150%;}
+      .banner img{width:100%; height:auto;}
 
-    footer{background-color: #000; height:45px; line-height:45px; text-align: center; font-size: 12px; color: #777;}
+    section{padding:15px 20px;}
+      .form-login, .form-contact{margin-bottom: 30px;}
+
+    #contact-sidebar{float: left; display: block;}
+    .quote{width:50%; margin:0px auto;}
+    footer.fwm-footer{background-color: #000; height:45px; line-height:45px; text-align: center; font-size: 12px; color: #777;}
